@@ -894,20 +894,13 @@ button.primary.wide {
   border: 2px solid var(--ink);
 }
 
-.swatch-purple {
-  background: linear-gradient(135deg, #c4b5fd, #8b5cf6);
-}
-.swatch-orange {
-  background: linear-gradient(135deg, #fdba74, #f97316);
-}
-.swatch-teal {
-  background: linear-gradient(135deg, #5eead4, #14b8a6);
-}
-.swatch-green {
-  background: linear-gradient(135deg, #86efac, #22c55e);
-}
-.swatch-rose {
-  background: linear-gradient(135deg, #fda4af, #fb7185);
+.course-icon--emoji {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.65rem;
+  line-height: 1;
+  background: linear-gradient(145deg, #fafafa, #ececf0);
 }
 
 .course-meta {

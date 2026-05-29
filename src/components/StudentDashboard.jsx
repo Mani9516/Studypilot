@@ -13,16 +13,16 @@ const SUBJECT_SHORT = {
   Biology: 'Bio',
 }
 
-const SUBJECT_SWATCH = {
-  Hindi: 'swatch-rose',
-  English: 'swatch-orange',
-  Mathematics: 'swatch-purple',
-  Science: 'swatch-teal',
-  'Social Science': 'swatch-green',
-  AI: 'swatch-purple',
-  Physics: 'swatch-orange',
-  Chemistry: 'swatch-teal',
-  Biology: 'swatch-green',
+const SUBJECT_EMOJI = {
+  Hindi: '📖',
+  English: '🔤',
+  Mathematics: '🔢',
+  Science: '🔬',
+  'Social Science': '🗺️',
+  AI: '🤖',
+  Physics: '⚡',
+  Chemistry: '🧪',
+  Biology: '🧬',
 }
 
 export default function StudentDashboard({ onOpenCourse, onOpenPayment }) {
@@ -183,8 +183,12 @@ export default function StudentDashboard({ onOpenCourse, onOpenPayment }) {
                 }}
               >
                 <span
-                  className={`course-icon ${SUBJECT_SWATCH[s] ?? 'swatch-purple'}`}
-                />
+                  className="course-icon course-icon--emoji"
+                  role="img"
+                  aria-label={`${s} icon`}
+                >
+                  {SUBJECT_EMOJI[s] ?? '📚'}
+                </span>
                 <span className="course-meta">
                   <span className="course-title">
                     Class {level} {s}
