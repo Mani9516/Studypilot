@@ -74,3 +74,12 @@ Backend: Node.js, Express.js
 AI Services: Python, TensorFlow, Scikit-learn
 Database: MongoDB
 Real-Time Features: Socket.IO, Redis
+
+## Run this repository locally
+
+This app in this repo is built with **Vite + React** (see `package.json`).
+
+```bash
+npm install
+npm run dev
+```

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+  <title>StudyPilot</title>
+  <!-- Mortarboard top -->
+  <path fill="#0e1a3a" d="M32 10 54 22 32 34 10 22 32 10Z"/>
+  <path fill="#0e1a3a" d="M12 24v8l20 10 20-10v-8l-20 10L12 24Z"/>
+  <!-- Head band -->
+  <path fill="#152a52" d="M10 38c0-2 1.5-3.5 3.5-3.5h37c2 0 3.5 1.5 3.5 3.5v6H10v-6Z"/>
+  <!-- Tassel string + bob -->
+  <path fill="#7c3aed" d="M40 22v26h-4V22h4Z"/>
+  <circle cx="38" cy="52" r="5" fill="#6d28d9"/>
+</svg>
